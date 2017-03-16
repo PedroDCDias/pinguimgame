@@ -1,0 +1,33 @@
+#scroller {
+	background-color: #ffffff;
+	padding-left: 0px;
+	height: 300px;
+	width: 400px;
+	background-image: url('screen.png');
+	background-repeat: no-repeat;
+} 
+#pingas {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    width: 32px;
+    height: 32px;
+    background: url('pingas.png') no-repeat;
+}
+	
+#pingas.left-right { background-position: 0px -32px; }
+#pingas.left-stand { background-position: -32px -32px; }
+#pingas.left-left { background-position: -64px -32px; }
+#pingas.right-right { background-position: -64px -64px; }
+#pingas.right-stand { background-position: -32px -64px; }
+#pingas.right-left { background-position: -0px -64px; }
+#pingas.back-right { background-position: 0px -96px; }
+#pingas.back-stand { background-position: -32px -96px; }
+#pingas.back-left { background-position: -64px -96px; }
+#pingas.front-right { background-position: 0px 0px; }
+#pingas.front-stand { background-position: -32px 0px; }
+#pingas.front-left { background-position: -64px 0px; } 
+
+.points {
+  color: red;
+}
