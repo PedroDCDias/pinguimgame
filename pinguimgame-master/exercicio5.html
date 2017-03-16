@@ -1,0 +1,34 @@
+<html>
+<head>
+	<h1> Welcome to the Game </h1>
+  <!-- <img src="pinguim_madagascar.jpg" /> -->
+<link rel="stylesheet" href="style.css">
+<script src="java.js">
+</script>
+</head>
+<body onkeydown="Key(event)">
+
+<div id="scroller">   
+	<div id="pingas">
+    </div> 
+</div> 
+<table>
+<tr>
+<td> <td> <button onclick="moveC()">Up</button> </td> </td>
+</tr>
+<tr>
+<td> <button onclick="moveE()">Left</button> </td>
+<td> <button onclick="moveB()">Down</button> </td>
+<td><button onclick="moveD()">Right</button> </td>
+</tr>
+<tr>
+<td> <td><button onclick="stop()">Stop</button> </td></td>
+</tr>
+<tr>
+<td> <td><button onclick="reload()">Restart</button> </td></td>
+</tr>
+</table>
+<h3>Pingas points :<div id="points"></div></h3>
+<div id="pos"></div>
+</body>
+</html>
