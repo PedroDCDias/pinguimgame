@@ -1,3 +1,5 @@
+Aluno: Pedro Daniel Dias; Numero: 55597
+
 # pinguimgame
 
 Ficheiros:
